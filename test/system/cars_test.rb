@@ -1,6 +1,7 @@
 require "application_system_test_case"
 
 class CarsTest < ApplicationSystemTestCase
+<<<<<<< HEAD
   setup do
     @car = cars(:one)
   end
@@ -44,4 +45,11 @@ class CarsTest < ApplicationSystemTestCase
 
     assert_text "Car was successfully destroyed"
   end
+=======
+  # test "visiting the index" do
+  #   visit cars_url
+  #
+  #   assert_selector "h1", text: "Car"
+  # end
+>>>>>>> origin/master
 end
